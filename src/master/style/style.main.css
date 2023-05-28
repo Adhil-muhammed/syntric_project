@@ -13,13 +13,12 @@
   background-repeat: no-repeat;
   max-width: 1536px;
   min-height: 100vh;
-
+  position: relative;
   /* left: 0px;
   top: 0px;
   /* overflow-x: hidden;  */
 }
 .wrapper-item {
-  position: relative;
   background-color: aqua;
 }
 
@@ -97,6 +96,8 @@
 /* hero-sections */
 .hero-section {
   min-height: 100vh;
+  max-width: 100%;
+  /* position: relative; */
 }
 
 .hero-section .container {
@@ -109,4 +110,169 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+}
+
+.site-Services-logo {
+  display: flex;
+  margin-top: 45px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 43px;
+}
+
+.site-Services-logo img {
+  object-fit: contain;
+  width: 80px;
+}
+
+.site-Services-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 140px;
+  font-size: 18px;
+}
+
+.site-Services-description {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 125px;
+  margin-top: 20px;
+  color: #9999999c;
+  padding-left: 94px;
+}
+
+.hero-overlay-leaf {
+  position: relative;
+}
+
+.hero-overlay-leaf img {
+  object-fit: contain;
+  width: 180px;
+  position: absolute;
+}
+
+.smaple-prodect-item {
+  margin-top: 60px;
+  margin-left: 40px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.smaple-prodect-item .main-image {
+  object-fit: contain;
+  width: 380.05px;
+  position: relative;
+}
+
+.smaple-prodect-item .sub-image {
+  position: absolute;
+  object-fit: contain;
+  width: 186px;
+  transform: translate(-50%, -50%);
+  top: 122px;
+  bottom: 0;
+  right: 0;
+  left: 62px;
+  height: 194px;
+}
+
+.smaple-prodect-item .smaple-prodect-item-details {
+  position: absolute;
+  width: 254px;
+  transform: translate(-50%, -50%);
+  top: 44px;
+  left: 266px;
+  color: white;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 171%;
+}
+.smaple-prodect-item .smaple-prodect_2-item-details {
+  position: absolute;
+  width: 254px;
+  transform: translate(-50%, -50%);
+  top: 49px;
+  left: 284px;
+  color: white;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 171%;
+}
+
+.smaple-prodect-item h6 {
+  position: absolute;
+  color: #f2fff4;
+  font-weight: 200;
+  transform: translate(-50%, -50%);
+  top: 102px;
+  left: 237px;
+}
+
+.main-image-2 {
+  object-fit: contain;
+  width: 380.05px;
+}
+.sub-image-2 {
+  position: absolute;
+  object-fit: contain;
+  width: 153px;
+  transform: translate(-50%, -50%);
+  top: 106px;
+  left: 52px;
+  height: 219px;
+}
+
+.new-arrivals {
+  margin-top: 74px;
+}
+
+.new-arrivals h1 {
+  text-align: center;
+}
+
+.new-arrivals img {
+  object-fit: contain;
+  width: 250px;
+}
+.new-arrivals-item {
+  justify-content: center;
+  gap: 200px;
+}
+
+.new-arrivals h3 {
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.hero-section-our_work {
+  margin-top: 70px;
+  display: flex;
+  padding-left: 150px;
+}
+
+.hero-section-our_work img {
+  object-fit: contain;
+  width: 400px;
+}
+.hero-section-our_work-description {
+  padding-left: 40px;
+}
+
+.our_work-description {
+  max-width: 400px;
+}
+
+.hero-section-our_work button {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 8px 34px;
+  background: transparent;
+}
+.hero-section-our_work button span {
+  font-size: 13px;
+  font-weight: 600;
 }
