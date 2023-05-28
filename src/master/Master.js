@@ -11,6 +11,7 @@ import {
   new_arrival_1,
   new_arrival_2,
   new_arrival_3,
+  leaf_overlay2,
   sm_product_1_overlay,
   sm_product_2_overlay,
 } from "assests";
@@ -21,11 +22,11 @@ export const Master = () => {
     <div>
       <LandingPage />
       {/* hero section */}
-      <div className="hero-section">
-        <div className="hero-overlay-leaf">
-          <img src={leaf_overlay} alt="image" />
-        </div>
-        <div className="container">
+      <div className="hero-overlay-leaf">
+        <img src={leaf_overlay} alt="image" />
+      </div>
+      <div className="container">
+        <div className="hero-section">
           <div className="hero-section-Service">
             <h1>Best Ever Service</h1>
           </div>
@@ -40,6 +41,7 @@ export const Master = () => {
               <img src={Service3} alt="" />
             </div>
           </div>
+
           <div className="site-Services-header">
             <div>
               <h3>Customer Support</h3>{" "}
