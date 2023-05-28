@@ -1,19 +1,19 @@
 import React from "react";
 import { LandingPage } from "modules";
 import {
-  sm_product_1,
-  sm_product_2,
+  our_work,
   Service1,
   Service2,
   Service3,
+  sm_product_1,
+  sm_product_2,
   leaf_overlay,
-  sm_product_1_overlay,
-  sm_product_2_overlay,
   new_arrival_1,
   new_arrival_2,
   new_arrival_3,
-  our_work,
-} from "../assests/image";
+  sm_product_1_overlay,
+  sm_product_2_overlay,
+} from "assests";
 import "./style/style.main.css";
 
 export const Master = () => {
